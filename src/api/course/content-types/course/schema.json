@@ -39,11 +39,11 @@
         "audios"
       ]
     },
-    "users_code": {
+    "user_code": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
-      "inversedBy": "course"
+      "inversedBy": "courses"
     }
   }
 }
